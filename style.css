@@ -61,8 +61,8 @@
 }
 
 .fullstack p {
-  padding: 20px;
-  font-size: 1.1rem;
+  padding: 10px;
+  font-size: 0.7rem;
 }
 
 .body {
@@ -83,8 +83,8 @@
 }
 
 .aws {
-  background-color: rgb(0, 0, 0);
-  color: rgb(218, 208, 208);
+  background-color: #1a1d21;
+  color: #ddd;
   text-align: center;
   padding: 60px;
 }

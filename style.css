@@ -5,13 +5,13 @@
 }
 
 /* .blur{
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    background-color: black;
-    opacity:0.4;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: black;
+  opacity:0.4;
 } */
 
 .container {
@@ -44,14 +44,14 @@
 }
 
 .header p {
-  font-size: 2rem;
+  font-size: 3rem;
   background-color: black;
   color: white;
-  padding: 20px 8px;
-  border-radius: 20px 0 20px 0;
-  outline-offset: 5px;
-  outline: 5px inset purple;
-  letter-spacing: 3px;
+  padding: 50px 35px;
+  border-radius: 40px 0 40px 0;
+  outline-offset: 20px;
+  outline: 7px inset rgb(116, 37, 149);
+  letter-spacing: 8px;
 }
 
 .fullstack {
@@ -61,8 +61,8 @@
 }
 
 .fullstack p {
-  padding: 10px;
-  font-size: 0.7rem;
+  padding: 20px;
+  font-size: 1.1rem;
 }
 
 .body {
@@ -83,8 +83,8 @@
 }
 
 .aws {
-  background-color: #1a1d21;
-  color: #ddd;
+  background-color: rgb(0, 0, 0);
+  color: rgb(218, 208, 208);
   text-align: center;
   padding: 60px;
 }
@@ -106,15 +106,15 @@
 }
 
 .reinvent p {
-  font-size: 2rem;
+  font-size: 3rem;
   background-color: black;
   color: white;
-  padding: 15px 10px;
-  border-radius: 10px 0 10px 0;
-  outline-offset: 0.3rem;
-  outline: 0.4rem inset purple;
+  padding: 30px 20px;
+  border-radius: 20px 0 20px 0;
+  outline-offset: 5px;
+  outline: 7px inset rgb(116, 37, 149);
   font-family: sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 .data {
@@ -146,12 +146,12 @@
   font-size: 3rem;
   background-color: black;
   color: white;
-  padding: 15px 10px;
+  padding: 30px 20px;
   border-radius: 20px 0 20px 0;
   outline-offset: 5px;
-  outline: 4px inset purple;
+  outline: 7px inset rgb(116, 37, 149);
   font-family: sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 
 .why {
@@ -179,13 +179,13 @@
 }
 
 .future p {
-  font-size: 2rem;
+  font-size: 3rem;
   background-color: black;
   color: white;
-  padding: 20px 10px;
-  border-radius: 20px 0 20px 0;
-  outline-offset: 5px;
-  outline: 5px inset purple;
+  padding: 50px 35px;
+  border-radius: 40px 0 40px 0;
+  outline-offset: 20px;
+  outline: 7px inset rgb(116, 37, 149);
   font-family: sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }

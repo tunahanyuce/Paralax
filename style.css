@@ -195,13 +195,13 @@
 }
 
 .future p {
-  font-size: 3rem;
+  font-size: 30px;
   background-color: black;
   color: white;
-  padding: 50px 35px;
-  border-radius: 40px 0 40px 0;
-  outline-offset: 20px;
-  outline: 7px inset rgb(116, 37, 149);
+  padding: 20px 10px;
+  border-radius: 15px 0 15px 0;
+  outline-offset: 8px;
+  outline: 5px inset purple;
   font-family: sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 0.2rem;
 }

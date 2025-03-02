@@ -15,7 +15,7 @@
 } */
 
 .container {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #foto {
@@ -27,7 +27,7 @@
 }
 
 * p {
-  line-height: 1.6rem;
+  line-height: 1.5rem;
 }
 
 .header {
@@ -44,90 +44,102 @@
 }
 
 .header p {
-  font-size: 3rem;
-  background-color: black;
-  color: white;
-  padding: 50px 35px;
-  border-radius: 40px 0 40px 0;
-  outline-offset: 20px;
-  outline: 7px inset rgb(116, 37, 149);
-  letter-spacing: 8px;
-}
-
-.fullstack {
-  background-color: #f5f5f6;
-  text-align: center;
-  padding: 60px;
-}
-
-.fullstack p {
-  padding: 20px;
-  font-size: 1.1rem;
-}
-
-.body {
-  background-image: url(./img/bg1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  background-attachment: fixed;
-}
-
-.body img {
-  width: 30vw;
-  height: 6vh;
-}
-
-.aws {
-  background-color: rgb(0, 0, 0);
-  color: rgb(218, 208, 208);
-  text-align: center;
-  padding: 60px;
-}
-
-.aws p {
-  padding: 20px;
-}
-
-.reinvent {
-  background-image: url(./img/bg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-attachment: fixed;
-}
-
-.reinvent p {
-  font-size: 3rem;
+  font-size: 1.8rem;
   background-color: black;
   color: white;
   padding: 30px 20px;
   border-radius: 20px 0 20px 0;
+  outline-offset: 8px;
+  outline: 5px inset purple;
+  letter-spacing: 8px;
+  line-height: 0.6rem;
+}
+
+.fullstack {
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  padding: 11px;
+}
+
+.fullstack p {
+  padding: 20px;
+  font-size: 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: url(./img/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.body img {
+  width: 23vw;
+  height: 9vh;
+}
+
+.aws {
+  background-color: #090d12;
+  color: rgb(218, 208, 208);
+  text-align: center;
+  padding: 25px;
+  font-size: 10px;
+}
+
+.aws p {
+  padding: 1px;
+}
+
+.reinvent {
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.reinvent p {
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  padding: 15px 7px;
+  border-radius: 15px 0 15px 0;
   outline-offset: 5px;
-  outline: 7px inset rgb(116, 37, 149);
+  outline: 4px inset purple;
   font-family: sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 .data {
-  background-color: rgb(248, 243, 243);
-  color: rgb(0, 0, 0);
+  background-color: rgb(241, 241, 241);
+  color: #666;
   text-align: center;
-  padding: 60px;
+  padding: 10px;
 }
 
 .data p {
   background-color: #f5f5f6;
   text-align: center;
   padding: 20px;
+  font-size: 10px;
 }
 
 .team {
@@ -135,7 +147,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,26 +155,30 @@
 }
 
 .team p {
-  font-size: 3rem;
+  font-size: 25px;
   background-color: black;
   color: white;
-  padding: 30px 20px;
-  border-radius: 20px 0 20px 0;
-  outline-offset: 5px;
-  outline: 7px inset rgb(116, 37, 149);
+  padding: 11px 6px;
+  border-radius: 10px 0 10px 0;
+  outline-offset: 3px;
+  outline: 3px inset purple;
   font-family: sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
 }
 
 .why {
-  background-color: black;
+  background-color: #16191d;
   color: rgb(218, 208, 208);
   text-align: center;
-  padding: 60px;
+  padding: 8px;
+}
+.why h2 {
+  font-size: 14px;
+  margin-top: 2.6rem;
 }
 
 .why p {
-  font-size: 1.2rem;
+  font-size: 9px;
   padding: 20px;
 }
 
